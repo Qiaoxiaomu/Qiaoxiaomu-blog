@@ -11,10 +11,15 @@
 [zh]
   languageCode = "zh-Hans"
   contentDir = "content/zh"
-  title = "Chinese website title..."
+  title = "乔小墓のBlog"
   [zh.params]
     description = "你是怎么找到这里的owo~"
   [[zh.menu.main]]
-    name = "乔小墓のBlog"
+    name = "关于我"
+    url = "#about"
+    weight = 2
+    
+  [[zh.menu.main]]
+    name = "关于我"
     url = "#about"
     weight = 1
